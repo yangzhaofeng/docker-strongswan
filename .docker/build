@@ -1,4 +1,4 @@
 #!/bin/bash
 apt update && apt upgrade -y
-apt install -y strongswan libstrongswan-extra-plugins libcharon-extra-plugins kmod
+apt install -y strongswan-starter strongswan-charon libstrongswan-extra-plugins libcharon-extra-plugins kmod
 apt clean
